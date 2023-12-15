@@ -59,7 +59,7 @@ const CharacterSheetPreview: FC = () => {
           Imprimir ficha
         </button>
       </div>
-      <div className="bg-slate-600 text-slate-300 rounded shadow-md px-3 py-1">
+      <div className="bg-slate-600 text-slate-300 rounded shadow-md px-3 py-1 print:text-black print:p-0 print:shadow-none">
         <Heading>{charName}</Heading>
         <Paragraph className="text-gray-300 text-bold">{raceName}</Paragraph>
         <Paragraph>{charBackstory}</Paragraph>
